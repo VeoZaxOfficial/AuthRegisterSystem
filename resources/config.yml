@@ -1,0 +1,28 @@
+owner: "veozax"
+
+timeout:
+  register: 60
+  login: 60
+
+messages:
+  prefix: "§l§cAuth Register System§r\n\n"
+
+  register_prompt: "§8[§c!§8] §eSecure your account using §6/register <password>"
+  login_prompt: "§8[§c!§8] §cLogin into this account using §f/login <password>"
+  register_usage: "§8[§e?§8] §cUse /register <password> to register your account"
+  register_success: "§8[§a+§8] §aSuccessfully Registered! §fYour Password for next time Login: §b{password}"
+  login_success: "§8[§a+§8] §aYou're now Successfully Logged into your account!"
+  already_registered: "§8[§b/§8] §cYour account is already secured! No need to secure again"
+  not_registered: "§8[§c!§8] §cYou are not registered! Please register using /register <password>"
+  not_secured: "§8[§c!§8] §cThis account is not secured. Please register using /register <password> to secure this account"
+  not_logged_in: "§8[§c!§8] §cYou can not do this. Please login first."
+  password_error: "§8[§e?§8] §cPasswords do not match or too short. Try /changepassword <new> <confirm>"
+  password_changed: "§8[§a+§8] §aYour Password has now changed successfully!"
+  wrong_password: "§8[§c!§8] §cIncorrect password! §7Attempts left: §e{attempts}"
+  too_many_attempts: "§cToo many failed login attempts!\n§7Please rejoin and try again."
+  auth_no_permission: "§8[§e?§8] §cYou are not allowed to use this command! Only owner can do this."
+  auth_usage: "§8[§e?§8] §cUsage: /auth remove <player>"
+  auth_not_found: "§8[§c!§8] §cAccount not found! Please recheck the player name"
+  auth_removed: "§8[§b/§8] §aAccount §e{player} §ahas been removed successfully!"
+  register_timeout: "{prefix}§cYou did not register in time"
+  login_timeout: "{prefix}§cYou did not login in time"

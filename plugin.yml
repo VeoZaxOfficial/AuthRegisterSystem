@@ -1,0 +1,22 @@
+name: AuthRegisterSystem
+main: AuthRegisterSystem\Main
+version: 0.14.3_0.15.10
+api: ["VeoZaxAPI"]
+author: VeoZax
+youtube: https://www.youtube.com/channel/UC33-nbRHQn-3H56aQc0sanA
+discord: https://discord.gg/dCzgPYam2J
+website: https://github.com/VeoZaxOfficial
+
+commands:
+  register:
+    description: Register account
+  login:
+    description: Login
+  changepassword:
+    description: Change password
+  auth:
+    description: Admin auth
+
+permissions:
+  auth.remove:
+    default: op
