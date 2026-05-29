@@ -17,7 +17,7 @@ A simple and lightweight authentication plugin for PocketMine-MP (API 2.0.0)
 2. Place it in your server's `/plugins/` folder
 3. Restart the server
 
-⬇ Download Link: https://www.mediafire.com/file/s2mi1wauh9zua92/AuthRegisterSystem_v0.14.3_0.15.10.phar/file
+⬇ Download Link: [Click Here To Download](https://www.mediafire.com/file/s2mi1wauh9zua92/AuthRegisterSystem_v0.14.3_0.15.10.phar/file)
 
 ## ⚙️ Commands
 
